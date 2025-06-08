@@ -1,6 +1,6 @@
 # GitHub Users App
 
-A modern React application for browsing and managing GitHub users with favorites functionality.
+A modern React website for browsing and managing GitHub users with favorites functionality.
 
 ## 🚀 Features
 
