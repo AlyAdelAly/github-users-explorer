@@ -1,22 +1,35 @@
-# GitHub Users App
+# GitHub Users Explorer
 
-A modern React website for browsing and managing GitHub users with favorites functionality.
+A React app for browsing GitHub users with favorites, search, and dark mode.
 
-## 🚀 Features
+## 🚀 Quick Start
 
-- **Browse GitHub Users**: Paginated list of GitHub users from the public API
-- **Smart Search**: Debounced search functionality within fetched data
-- **Favorites System**: Add/remove users to/from favorites with persistence
-- **Dark Mode**: Toggle between light and dark themes
-- **Responsive Design**: Mobile-first responsive design
-- **Error Handling**: Comprehensive error handling with retry functionality
-- **Loading States**: Beautiful loading indicators
+```bash
+git clone <repo-url>
+cd github-users-app
+npm install
+npm start
+```
 
-## 🛠 Tech Stack
+**Dependencies**: React 19, Tailwind CSS, lucide-react
 
-- **React**
-- **React Router**
-- **Context API**
-- **Tailwind CSS**
-- **Lucide React**
-- **GitHub API**
+## 🏗️ Technical Design
+
+### Architecture
+- **Context API**: Simple state management for favorites/theme
+- **Custom Hooks**: `useDebounce` for search, `useAppContext` for state
+- **Component Composition**: Modular, reusable components
+- **localStorage**: Persistent favorites and theme preferences
+
+### Performance
+- **Debounced Search**: 300ms delay prevents excessive API calls
+- **Memoization**: `useMemo` for filtered/paginated lists
+- **Client-side Pagination**: 8 users per page
+
+## 🔍 Code Review
+
+### ✅ Strengths
+- Clean component hierarchy with single responsibility
+- Proper React hooks usage with correct dependencies
+- Good UX with loading states and error handling
+- Responsive design with accessibility considerations
