@@ -15,6 +15,7 @@ A modern React application for browsing and managing GitHub users with favorites
 ## 🛠 Tech Stack
 
 - **React**
+- **React Router**
 - **Context API**
 - **Tailwind CSS**
 - **Lucide React**
