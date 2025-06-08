@@ -24,7 +24,7 @@ npm start
 ### Performance
 - **Debounced Search**: 300ms delay prevents excessive API calls
 - **Memoization**: `useMemo` for filtered/paginated lists
-- **Client-side Pagination**: 8 users per page
+- **Client-side Pagination**: 9 users per page
 
 ## 🔍 Code Review
 
