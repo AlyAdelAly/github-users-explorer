@@ -16,10 +16,10 @@ npm start
 ## 🏗️ Technical Design
 
 ### Architecture
-- **Context API**: Simple state management for favorites/theme
+- **Context API**: Simple state management for favorites/dark mode theme
 - **Custom Hooks**: `useDebounce` for search, `useAppContext` for state
 - **Component Composition**: Modular, reusable components
-- **localStorage**: Persistent favorites and theme preferences
+- **localStorage**: Persistent favorites and dark mode preferences
 
 ### Performance
 - **Debounced Search**: 300ms delay prevents excessive API calls
@@ -32,4 +32,4 @@ npm start
 - Clean component hierarchy with single responsibility
 - Proper React hooks usage with correct dependencies
 - Good UX with loading states and error handling
-- Responsive design with accessibility considerations
+- Responsive design with accessibility and dark mode toggle
